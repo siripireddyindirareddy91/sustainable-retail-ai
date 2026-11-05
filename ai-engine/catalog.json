@@ -1,0 +1,3782 @@
+[
+  {
+    "id": "eco-001",
+    "name": "Solar Bluetooth Speaker",
+    "brand": "Terra & Co.",
+    "category": "Electronics",
+    "price": 3499,
+    "originalPrice": 4499,
+    "rating": 4,
+    "reviews": 23,
+    "description": "Solar Bluetooth Speaker is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 66,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 77,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 88,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 67,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-002",
+    "name": "Refurbished Everyday Laptop",
+    "brand": "Everkind",
+    "category": "Electronics",
+    "price": 45999,
+    "originalPrice": 52999,
+    "rating": 4.1,
+    "reviews": 40,
+    "description": "Refurbished Everyday Laptop is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 84,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 63,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 74,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-003",
+    "name": "Wireless Over-Ear Headphones",
+    "brand": "Rooted",
+    "category": "Electronics",
+    "price": 5999,
+    "originalPrice": 7499,
+    "rating": 4.2,
+    "reviews": 57,
+    "description": "Wireless Over-Ear Headphones is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 69,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 80,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 59,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 70,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 81,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-004",
+    "name": "Energy-Saving Desk Monitor",
+    "brand": "Greenhouse",
+    "category": "Electronics",
+    "price": 12999,
+    "originalPrice": 14999,
+    "rating": 4.3,
+    "reviews": 74,
+    "description": "Energy-Saving Desk Monitor is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 76,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 55,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 66,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 77,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-005",
+    "name": "Rechargeable Reading Light",
+    "brand": "Loop Studio",
+    "category": "Electronics",
+    "price": 1499,
+    "originalPrice": 1999,
+    "rating": 4.4,
+    "reviews": 91,
+    "description": "Rechargeable Reading Light is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 94,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 95,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-006",
+    "name": "Recycled Canvas Tote",
+    "brand": "Terra & Co.",
+    "category": "Fashion",
+    "price": 540,
+    "originalPrice": 760,
+    "rating": 4.5,
+    "reviews": 108,
+    "description": "Recycled Canvas Tote is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 69,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 91,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 59,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-007",
+    "name": "Everyday Cork Wallet",
+    "brand": "Everkind",
+    "category": "Fashion",
+    "price": 1000,
+    "originalPrice": 1320,
+    "rating": 4.6,
+    "reviews": 125,
+    "description": "Everyday Cork Wallet is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 97,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 65,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 87,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 55,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 66,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-008",
+    "name": "Linen Weekend Bag",
+    "brand": "Rooted",
+    "category": "Fashion",
+    "price": 1460,
+    "originalPrice": 1880,
+    "rating": 4.7,
+    "reviews": 142,
+    "description": "Linen Weekend Bag is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 61,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 83,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 94,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-009",
+    "name": "Recycled Travel Backpack",
+    "brand": "Greenhouse",
+    "category": "Fashion",
+    "price": 1920,
+    "originalPrice": 2440,
+    "rating": 4.8,
+    "reviews": 159,
+    "description": "Recycled Travel Backpack is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 79,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 80,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-010",
+    "name": "Hemp Crossbody Bag",
+    "brand": "Loop Studio",
+    "category": "Fashion",
+    "price": 2380,
+    "originalPrice": 3000,
+    "rating": 4,
+    "reviews": 176,
+    "description": "Hemp Crossbody Bag is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 97,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 76,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 87,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-011",
+    "name": "Organic Cotton Essential Tee",
+    "brand": "Terra & Co.",
+    "category": "Clothing",
+    "price": 670,
+    "originalPrice": 920,
+    "rating": 4.1,
+    "reviews": 193,
+    "description": "Organic Cotton Essential Tee is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 82,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 93,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 72,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 83,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 94,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-012",
+    "name": "Relaxed Linen Shirt",
+    "brand": "Everkind",
+    "category": "Clothing",
+    "price": 1130,
+    "originalPrice": 1480,
+    "rating": 4.2,
+    "reviews": 210,
+    "description": "Relaxed Linen Shirt is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 89,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 68,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 79,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-013",
+    "name": "Hemp Everyday Trousers",
+    "brand": "Rooted",
+    "category": "Clothing",
+    "price": 1590,
+    "originalPrice": 2040,
+    "rating": 4.3,
+    "reviews": 227,
+    "description": "Hemp Everyday Trousers is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 64,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 65,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-014",
+    "name": "Recycled Fleece Jacket",
+    "brand": "Greenhouse",
+    "category": "Clothing",
+    "price": 2050,
+    "originalPrice": 2600,
+    "rating": 4.4,
+    "reviews": 244,
+    "description": "Recycled Fleece Jacket is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 60,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 71,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 82,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 61,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 72,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-015",
+    "name": "Cotton Lounge Set",
+    "brand": "Loop Studio",
+    "category": "Clothing",
+    "price": 2510,
+    "originalPrice": 3160,
+    "rating": 4.5,
+    "reviews": 261,
+    "description": "Cotton Lounge Set is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 67,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 78,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 57,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 68,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 79,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-016",
+    "name": "Recycled Knit Sneakers",
+    "brand": "Terra & Co.",
+    "category": "Footwear",
+    "price": 810,
+    "originalPrice": 1080,
+    "rating": 4.6,
+    "reviews": 278,
+    "description": "Recycled Knit Sneakers is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 74,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 96,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 64,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-017",
+    "name": "Cork Footbed Sandals",
+    "brand": "Everkind",
+    "category": "Footwear",
+    "price": 1270,
+    "originalPrice": 1640,
+    "rating": 4.7,
+    "reviews": 295,
+    "description": "Cork Footbed Sandals is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 92,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 60,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 71,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 93,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-018",
+    "name": "Canvas Walking Shoes",
+    "brand": "Rooted",
+    "category": "Footwear",
+    "price": 1730,
+    "originalPrice": 2200,
+    "rating": 4.8,
+    "reviews": 312,
+    "description": "Canvas Walking Shoes is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 88,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 56,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 67,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 89,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 57,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-019",
+    "name": "Everyday Trail Trainers",
+    "brand": "Greenhouse",
+    "category": "Footwear",
+    "price": 2190,
+    "originalPrice": 2760,
+    "rating": 4,
+    "reviews": 329,
+    "description": "Everyday Trail Trainers is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 95,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 63,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 85,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 96,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 64,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-020",
+    "name": "Natural Rubber Flip Flops",
+    "brand": "Loop Studio",
+    "category": "Footwear",
+    "price": 2650,
+    "originalPrice": 3320,
+    "rating": 4.1,
+    "reviews": 346,
+    "description": "Natural Rubber Flip Flops is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 59,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 81,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 92,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 60,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-021",
+    "name": "Insulated Steel Bottle",
+    "brand": "Terra & Co.",
+    "category": "Home & Kitchen",
+    "price": 950,
+    "originalPrice": 1240,
+    "rating": 4.2,
+    "reviews": 363,
+    "description": "Insulated Steel Bottle is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 77,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 88,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 56,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 78,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-022",
+    "name": "Bamboo Kitchen Essentials",
+    "brand": "Everkind",
+    "category": "Home & Kitchen",
+    "price": 1410,
+    "originalPrice": 1800,
+    "rating": 4.3,
+    "reviews": 380,
+    "description": "Bamboo Kitchen Essentials is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 84,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 95,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 74,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 85,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-023",
+    "name": "Recycled Glass Storage Set",
+    "brand": "Rooted",
+    "category": "Home & Kitchen",
+    "price": 1870,
+    "originalPrice": 2360,
+    "rating": 4.4,
+    "reviews": 397,
+    "description": "Recycled Glass Storage Set is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 80,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 91,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 70,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 81,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 92,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-024",
+    "name": "Low-Energy Electric Kettle",
+    "brand": "Greenhouse",
+    "category": "Home & Kitchen",
+    "price": 2330,
+    "originalPrice": 2920,
+    "rating": 4.5,
+    "reviews": 414,
+    "description": "Low-Energy Electric Kettle is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 87,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 66,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 77,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 88,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-025",
+    "name": "Cast Iron Everyday Pan",
+    "brand": "Loop Studio",
+    "category": "Home & Kitchen",
+    "price": 2790,
+    "originalPrice": 3480,
+    "rating": 4.6,
+    "reviews": 431,
+    "description": "Cast Iron Everyday Pan is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 84,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 63,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-026",
+    "name": "Solid Shampoo Bar",
+    "brand": "Terra & Co.",
+    "category": "Beauty & Personal Care",
+    "price": 1080,
+    "originalPrice": 1400,
+    "rating": 4.7,
+    "reviews": 448,
+    "description": "Solid Shampoo Bar is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 69,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 80,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 59,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 70,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-027",
+    "name": "Bamboo Toothbrush Set",
+    "brand": "Everkind",
+    "category": "Beauty & Personal Care",
+    "price": 1540,
+    "originalPrice": 1960,
+    "rating": 4.8,
+    "reviews": 465,
+    "description": "Bamboo Toothbrush Set is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 65,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 76,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 55,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 66,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 77,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-028",
+    "name": "Refillable Body Wash",
+    "brand": "Rooted",
+    "category": "Beauty & Personal Care",
+    "price": 2000,
+    "originalPrice": 2520,
+    "rating": 4,
+    "reviews": 482,
+    "description": "Refillable Body Wash is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 72,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 94,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-029",
+    "name": "Plant-Based Soap Collection",
+    "brand": "Greenhouse",
+    "category": "Beauty & Personal Care",
+    "price": 2460,
+    "originalPrice": 3080,
+    "rating": 4.1,
+    "reviews": 499,
+    "description": "Plant-Based Soap Collection is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 69,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 91,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-030",
+    "name": "Reusable Cotton Face Pads",
+    "brand": "Loop Studio",
+    "category": "Beauty & Personal Care",
+    "price": 2920,
+    "originalPrice": 3640,
+    "rating": 4.2,
+    "reviews": 516,
+    "description": "Reusable Cotton Face Pads is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 97,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 65,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 87,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 55,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-031",
+    "name": "FSC-Style Oak Side Table",
+    "brand": "Terra & Co.",
+    "category": "Furniture",
+    "price": 1220,
+    "originalPrice": 1560,
+    "rating": 4.3,
+    "reviews": 533,
+    "description": "FSC-Style Oak Side Table is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 93,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 61,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 83,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 94,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-032",
+    "name": "Modular Bamboo Bookshelf",
+    "brand": "Everkind",
+    "category": "Furniture",
+    "price": 1680,
+    "originalPrice": 2120,
+    "rating": 4.4,
+    "reviews": 550,
+    "description": "Modular Bamboo Bookshelf is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 57,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 79,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-033",
+    "name": "Reclaimed Wood Stool",
+    "brand": "Rooted",
+    "category": "Furniture",
+    "price": 2140,
+    "originalPrice": 2680,
+    "rating": 4.5,
+    "reviews": 567,
+    "description": "Reclaimed Wood Stool is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 97,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 76,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-034",
+    "name": "Recycled Fabric Lounge Chair",
+    "brand": "Greenhouse",
+    "category": "Furniture",
+    "price": 2600,
+    "originalPrice": 3240,
+    "rating": 4.6,
+    "reviews": 584,
+    "description": "Recycled Fabric Lounge Chair is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 71,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 82,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 93,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 72,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 83,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-035",
+    "name": "Compact Writing Desk",
+    "brand": "Loop Studio",
+    "category": "Furniture",
+    "price": 3060,
+    "originalPrice": 3800,
+    "rating": 4.7,
+    "reviews": 601,
+    "description": "Compact Writing Desk is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 78,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 89,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 68,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 79,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-036",
+    "name": "Organic Breakfast Oats",
+    "brand": "Terra & Co.",
+    "category": "Grocery",
+    "price": 1360,
+    "originalPrice": 1720,
+    "rating": 4.8,
+    "reviews": 618,
+    "description": "Organic Breakfast Oats is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 85,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 64,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-037",
+    "name": "Shade-Grown Coffee Beans",
+    "brand": "Everkind",
+    "category": "Grocery",
+    "price": 1820,
+    "originalPrice": 2280,
+    "rating": 4,
+    "reviews": 635,
+    "description": "Shade-Grown Coffee Beans is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 60,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 71,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 82,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 61,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-038",
+    "name": "Loose Leaf Green Tea",
+    "brand": "Rooted",
+    "category": "Grocery",
+    "price": 2280,
+    "originalPrice": 2840,
+    "rating": 4.1,
+    "reviews": 652,
+    "description": "Loose Leaf Green Tea is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 56,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 67,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 78,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 57,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 68,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-039",
+    "name": "Plant-Based Pantry Box",
+    "brand": "Greenhouse",
+    "category": "Grocery",
+    "price": 2740,
+    "originalPrice": 3400,
+    "rating": 4.2,
+    "reviews": 669,
+    "description": "Plant-Based Pantry Box is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 63,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 74,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 96,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 64,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-040",
+    "name": "Mixed Nut Snack Jar",
+    "brand": "Loop Studio",
+    "category": "Grocery",
+    "price": 3200,
+    "originalPrice": 3960,
+    "rating": 4.3,
+    "reviews": 686,
+    "description": "Mixed Nut Snack Jar is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 70,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 92,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 60,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 71,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-041",
+    "name": "Cork Laptop Sleeve",
+    "brand": "Terra & Co.",
+    "category": "Accessories",
+    "price": 1500,
+    "originalPrice": 1880,
+    "rating": 4.4,
+    "reviews": 703,
+    "description": "Cork Laptop Sleeve is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 88,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 56,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 67,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 89,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-042",
+    "name": "Recycled Fabric Cap",
+    "brand": "Everkind",
+    "category": "Accessories",
+    "price": 1960,
+    "originalPrice": 2440,
+    "rating": 4.5,
+    "reviews": 720,
+    "description": "Recycled Fabric Cap is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 84,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 95,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 63,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 85,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 96,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-043",
+    "name": "Steel Travel Cutlery",
+    "brand": "Rooted",
+    "category": "Accessories",
+    "price": 2420,
+    "originalPrice": 3000,
+    "rating": 4.6,
+    "reviews": 737,
+    "description": "Steel Travel Cutlery is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 91,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 59,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 81,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 92,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 60,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-044",
+    "name": "Reusable Shopping Pouches",
+    "brand": "Greenhouse",
+    "category": "Accessories",
+    "price": 2880,
+    "originalPrice": 3560,
+    "rating": 4.7,
+    "reviews": 754,
+    "description": "Reusable Shopping Pouches is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 55,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 77,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 88,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 56,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-045",
+    "name": "Minimal Canvas Belt",
+    "brand": "Loop Studio",
+    "category": "Accessories",
+    "price": 3340,
+    "originalPrice": 4120,
+    "rating": 4.8,
+    "reviews": 771,
+    "description": "Minimal Canvas Belt is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 84,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 95,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 74,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-046",
+    "name": "Natural Rubber Yoga Mat",
+    "brand": "Terra & Co.",
+    "category": "Sports & Fitness",
+    "price": 1630,
+    "originalPrice": 2040,
+    "rating": 4,
+    "reviews": 788,
+    "description": "Natural Rubber Yoga Mat is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 69,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 80,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 91,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 70,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 81,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-047",
+    "name": "Steel Fitness Bottle",
+    "brand": "Everkind",
+    "category": "Sports & Fitness",
+    "price": 2090,
+    "originalPrice": 2600,
+    "rating": 4.1,
+    "reviews": 805,
+    "description": "Steel Fitness Bottle is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 76,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 87,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 66,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 77,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 88,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-048",
+    "name": "Recycled Gym Duffel",
+    "brand": "Rooted",
+    "category": "Sports & Fitness",
+    "price": 2550,
+    "originalPrice": 3160,
+    "rating": 4.2,
+    "reviews": 822,
+    "description": "Recycled Gym Duffel is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 83,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 84,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-049",
+    "name": "Cork Yoga Blocks",
+    "brand": "Greenhouse",
+    "category": "Sports & Fitness",
+    "price": 3010,
+    "originalPrice": 3720,
+    "rating": 4.3,
+    "reviews": 839,
+    "description": "Cork Yoga Blocks is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 69,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 80,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 59,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-050",
+    "name": "Adjustable Resistance Bands",
+    "brand": "Loop Studio",
+    "category": "Sports & Fitness",
+    "price": 3470,
+    "originalPrice": 4280,
+    "rating": 4.4,
+    "reviews": 856,
+    "description": "Adjustable Resistance Bands is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 97,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 65,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 76,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 55,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 66,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-051",
+    "name": "The Circular Living Handbook",
+    "brand": "Terra & Co.",
+    "category": "Books",
+    "price": 1770,
+    "originalPrice": 2200,
+    "rating": 4.5,
+    "reviews": 873,
+    "description": "The Circular Living Handbook is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 61,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 72,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 94,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 62,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 73,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-052",
+    "name": "A Practical Guide to Repair",
+    "brand": "Everkind",
+    "category": "Books",
+    "price": 2230,
+    "originalPrice": 2760,
+    "rating": 4.6,
+    "reviews": 890,
+    "description": "A Practical Guide to Repair is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 68,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 69,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-053",
+    "name": "Small-Space Gardening",
+    "brand": "Rooted",
+    "category": "Books",
+    "price": 2690,
+    "originalPrice": 3320,
+    "rating": 4.7,
+    "reviews": 907,
+    "description": "Small-Space Gardening is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 97,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 65,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 87,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-054",
+    "name": "The Mindful Wardrobe",
+    "brand": "Greenhouse",
+    "category": "Books",
+    "price": 3150,
+    "originalPrice": 3880,
+    "rating": 4.8,
+    "reviews": 924,
+    "description": "The Mindful Wardrobe is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 82,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 93,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 61,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 83,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 94,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-055",
+    "name": "Climate Science Explained",
+    "brand": "Loop Studio",
+    "category": "Books",
+    "price": 3610,
+    "originalPrice": 4440,
+    "rating": 4,
+    "reviews": 941,
+    "description": "Climate Science Explained is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 89,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 57,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 79,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 90,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 58,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-056",
+    "name": "Home Compost Starter",
+    "brand": "Terra & Co.",
+    "category": "Eco-Friendly Products",
+    "price": 1910,
+    "originalPrice": 2360,
+    "rating": 4.1,
+    "reviews": 958,
+    "description": "Home Compost Starter is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 96,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 97,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-057",
+    "name": "Reusable Beeswax Wraps",
+    "brand": "Everkind",
+    "category": "Eco-Friendly Products",
+    "price": 2370,
+    "originalPrice": 2920,
+    "rating": 4.2,
+    "reviews": 975,
+    "description": "Reusable Beeswax Wraps is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 71,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 82,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 93,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 72,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-058",
+    "name": "Refill Cleaning Starter Kit",
+    "brand": "Rooted",
+    "category": "Eco-Friendly Products",
+    "price": 2830,
+    "originalPrice": 3480,
+    "rating": 4.3,
+    "reviews": 992,
+    "description": "Refill Cleaning Starter Kit is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=700&q=80",
+    "materials": "Mixed materials; composition unavailable",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 67,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 78,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 89,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 68,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 79,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-059",
+    "name": "Recycled Paper Notebook Set",
+    "brand": "Greenhouse",
+    "category": "Eco-Friendly Products",
+    "price": 3290,
+    "originalPrice": 4040,
+    "rating": 4.4,
+    "reviews": 1009,
+    "description": "Recycled Paper Notebook Set is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=700&q=80",
+    "materials": "Recycled textile blend (sample)",
+    "packaging": "Recyclable paper packaging (sample)",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 74,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": 85,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 64,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 75,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": 86,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  },
+  {
+    "id": "eco-060",
+    "name": "Plantable Seed Pencils",
+    "brand": "Loop Studio",
+    "category": "Eco-Friendly Products",
+    "price": 3750,
+    "originalPrice": 4600,
+    "rating": 4.5,
+    "reviews": 1026,
+    "description": "Plantable Seed Pencils is a fictional demonstration product created to explore thoughtful shopping. Compare its sample attributes, price and rating using transparent recommendation rules. No live stock or environmental certification is claimed.",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=700&q=80",
+    "materials": "Cotton and natural fibres (sample)",
+    "packaging": "Packaging information unavailable",
+    "carbon": null,
+    "attributes": {
+      "materials": {
+        "value": 81,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "packaging": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "durability": {
+        "value": 60,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "energy": {
+        "value": 71,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "repairability": {
+        "value": 82,
+        "status": "demonstration",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "recyclability": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "certifications": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      },
+      "carbon": {
+        "value": null,
+        "status": "unavailable",
+        "note": "Synthetic design data, not independently verified environmental evidence."
+      }
+    },
+    "specifications": {
+      "Collection": "Everyday essentials",
+      "Warranty": "Not available — sample listing",
+      "Availability": "Demonstration only; not for sale"
+    },
+    "demo": true
+  }
+]
