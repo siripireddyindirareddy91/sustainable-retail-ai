@@ -1,8 +1,116 @@
-import Link from 'next/link';
-import {notFound} from 'next/navigation';
-import {Leaf,ArrowRight,ShieldCheck,Star} from 'lucide-react';
-import {products} from '@/lib/catalog';
-import {assess,similar,recommend} from '@/lib/engine';
-import {ProductGrid,SaveActions} from '@/components/products';
-import {TrackProduct} from '@/components/tracker';
-export default async function Details({params}:{params:Promise<{id:string}>}){const {id}=await params;const p=products.find(p=>p.id===id);if(!p)notFound();const a=assess(p);const r=recommend({},[p])[0];return <div className="wrap page-space"><TrackProduct id={id}/><div className="breadcrumbs"><Link href="/products">All products</Link> / {p.category} / {p.name}</div><div className="detail-layout"><div className="detail-photo"><img src={p.image} alt={p.name}/><span className="pill">Illustrative category photograph</span></div><div><div className="eyebrow">{p.brand} · DEMONSTRATION PRODUCT</div><h1 className="page-title">{p.name}</h1><p className="rating"><Star size={17} fill="#e7a834"/>{p.rating}/5 · {p.reviews} sample ratings</p><div className="detail-price">₹{p.price.toLocaleString('en-IN')} <del>₹{p.originalPrice.toLocaleString('en-IN')}</del></div><p>{p.description}</p><SaveActions id={id}/><p className="muted">Demo bag only. Payments, stock and fulfillment are not offered.</p><div className="panel tinted"><h3><Leaf/> Sustainability at a glance</h3><div className="large-score">{a.score??'—'}<small>/ 100 · sample score</small></div><p>{a.completeness}% data completeness · {a.confidence}</p><Link className="text-link" href={`/sustainability?product=${id}`}>Explore the evidence <ArrowRight size={16}/></Link></div></div></div><div className="two-col section"><section className="panel"><h2>What goes into this product</h2>{Object.entries({...p.specifications,Materials:p.materials,Packaging:p.packaging,'Carbon footprint':p.carbon===null?'Unavailable':`${p.carbon} kg CO₂e`,'Environmental certifications':'Unavailable'}).map(([k,v])=><div className="data-row" key={k}><span>{k}</span><strong>{v}</strong></div>)}</section><section className="panel"><h2><ShieldCheck/> Why this recommendation?</h2>{r.explanation.map(x=><p key={x} className="reason-line">✓ {x}</p>)}<p className="muted">Model: {r.modelVersion} · Score: {r.score}/100</p><Link className="btn" href={`/assistant?product=${id}`}>Ask AI about this product <ArrowRight size={16}/></Link></section></div><section className="section"><div className="section-heading"><div><span className="eyebrow">KEEP EXPLORING</span><h2>Similar products & alternatives</h2><p>Content similarity, not a claim of environmental superiority.</p></div></div><ProductGrid items={similar(p)}/></section><section className="panel"><h2>Sample review summary</h2><p>Rating {p.rating}/5 across {p.reviews} synthetic ratings. Individual customer reviews are unavailable. This listing does not represent real customer feedback.</p></section></div>;}
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Leaf, ArrowRight, ShieldCheck, Star } from "lucide-react";
+import { products } from "@/lib/catalog";
+import { assess, similar, recommend } from "@/lib/engine";
+import { ProductGrid, SaveActions } from "@/components/products";
+import { TrackProduct } from "@/components/tracker";
+export default async function Details({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const p = products.find((p) => p.id === id);
+  if (!p) notFound();
+  const a = assess(p);
+  const r = recommend({}, [p])[0];
+  return (
+    <div className="wrap page-space">
+      <TrackProduct id={id} />
+      <div className="breadcrumbs">
+        <Link href="/products">All products</Link> / {p.category} / {p.name}
+      </div>
+      <div className="detail-layout">
+        <div className="detail-photo">
+          <img src={p.image} alt={p.name} />
+          <span className="pill">Illustrative category photograph</span>
+        </div>
+        <div>
+          <div className="eyebrow">{p.brand} · DEMONSTRATION PRODUCT</div>
+          <h1 className="page-title">{p.name}</h1>
+          <p className="rating">
+            <Star size={17} fill="#e7a834" />
+            {p.rating}/5 · {p.reviews} sample ratings
+          </p>
+          <div className="detail-price">
+            ₹{p.price.toLocaleString("en-IN")}{" "}
+            <del>₹{p.originalPrice.toLocaleString("en-IN")}</del>
+          </div>
+          <p>{p.description}</p>
+          <SaveActions id={id} />
+          <p className="muted">
+            Demo bag only. Payments, stock and fulfillment are not offered.
+          </p>
+          <div className="panel tinted">
+            <h3>
+              <Leaf /> Sustainability at a glance
+            </h3>
+            <div className="large-score">
+              {a.score ?? "—"}
+              <small>/ 100 · sample score</small>
+            </div>
+            <p>
+              {a.completeness}% data completeness · {a.confidence}
+            </p>
+            <Link className="text-link" href={`/sustainability?product=${id}`}>
+              Explore the evidence <ArrowRight size={16} />
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="two-col section">
+        <section className="panel">
+          <h2>What goes into this product</h2>
+          {Object.entries({
+            ...p.specifications,
+            Materials: p.materials,
+            Packaging: p.packaging,
+            "Carbon footprint":
+              p.carbon === null ? "Unavailable" : `${p.carbon} kg CO₂e`,
+            "Environmental certifications": "Unavailable",
+          }).map(([k, v]) => (
+            <div className="data-row" key={k}>
+              <span>{k}</span>
+              <strong>{v}</strong>
+            </div>
+          ))}
+        </section>
+        <section className="panel">
+          <h2>
+            <ShieldCheck /> Why this recommendation?
+          </h2>
+          {r.explanation.map((x) => (
+            <p key={x} className="reason-line">
+              ✓ {x}
+            </p>
+          ))}
+          <p className="muted">
+            Model: {r.modelVersion} · Score: {r.score}/100
+          </p>
+          <Link className="btn" href={`/assistant?product=${id}`}>
+            Ask AI about this product <ArrowRight size={16} />
+          </Link>
+        </section>
+      </div>
+      <section className="section">
+        <div className="section-heading">
+          <div>
+            <span className="eyebrow">KEEP EXPLORING</span>
+            <h2>Similar products & alternatives</h2>
+            <p>Content similarity, not a claim of environmental superiority.</p>
+          </div>
+        </div>
+        <ProductGrid items={similar(p)} />
+      </section>
+      <section className="panel">
+        <h2>Sample review summary</h2>
+        <p>
+          Rating {p.rating}/5 across {p.reviews} synthetic ratings. Individual
+          customer reviews are unavailable. This listing does not represent real
+          customer feedback.
+        </p>
+      </section>
+    </div>
+  );
+}

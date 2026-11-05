@@ -7,3 +7,9 @@
 - `npm audit`: dependency advisory checks.
 
 Schema-policy tests inspect the SQL contract; they do not replace live two-user Supabase RLS tests. Account creation, email delivery, recovery and real provider integration require credentials and were not exercised in the default no-key deployment. No quantitative recommendation accuracy is claimed. Python model training requires installing the optional requirements and supplying observed interaction data.
+
+## Verified deployment checks
+
+Production URL: https://sustainable-retail-ai.vercel.app
+
+The browser check exercised global laptop search (laptop and matching sleeve), wishlist save, two-item comparison, and generated personalized recommendations. A mobile home-page check used a 390×844 viewport and found no horizontal overflow. The production storefront rendered category photography and the transparency disclosure. Supabase account and actual provider calls remain unverified because no credentials were configured.
