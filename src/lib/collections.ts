@@ -8,8 +8,8 @@ export const collectionDefinitions = [
   },
   {
     id: "materials",
-    title: "Mindful materials",
-    copy: "Sample sustainability attributes, with the evidence kept visible.",
+    title: "Home & everyday finds",
+    copy: "Product-matched photographs. Environmental evidence is marked unavailable.",
   },
   {
     id: "top-rated",

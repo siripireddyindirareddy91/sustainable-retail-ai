@@ -1,38 +1,46 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { products, categories } from "../src/lib/catalog";
+import records from "../src/data/photo-products.json";
 import {
   collectionDefinitions,
   collectionProducts,
 } from "../src/lib/collections";
-import { GET } from "../src/app/api/product-image/[id]/route";
-test("every category has exactly 105 distinct products and configurations", () => {
-  assert.equal(products.length, 1260);
-  assert.equal(new Set(products.map((p) => p.name)).size, 1260);
-  for (const category of categories) {
-    const items = products.filter((p) => p.category === category);
-    assert.equal(items.length, 105);
-    assert.equal(new Set(items.map((p) => p.id)).size, 105);
-    assert.equal(new Set(items.map((p) => p.image)).size, 105);
+test("every listing uses the exact photograph assigned by its source product record", () => {
+  for (const p of products) {
+    const record = records.find((r) => `photo-${r.id}` === p.id)!;
+    assert.ok(record);
+    assert.equal(p.image, record._photo.url);
+    assert.equal(p.name, record.title);
+    assert.ok(p.image.startsWith("https://cdn.dummyjson.com/"));
+    assert.ok(record._photo.bytes > 1000);
   }
 });
-test("home collections contain 120 products each and never overlap", () => {
+test("image URLs and fetched image SHA-256 hashes are unique across the entire catalog", () => {
+  assert.equal(new Set(products.map((p) => p.image)).size, products.length);
+  assert.equal(new Set(products.map((p) => p.photoHash)).size, products.length);
+});
+test("home collections never repeat a product or its photograph", () => {
   const seen = new Set<string>();
-  for (const definition of collectionDefinitions) {
-    const items = collectionProducts(definition.id);
-    assert.equal(items.length, 120);
-    for (const product of items) {
-      assert.ok(!seen.has(product.id));
-      seen.add(product.id);
+  const photos = new Set<string>();
+  for (const c of collectionDefinitions) {
+    const items = collectionProducts(c.id);
+    assert.ok(items.length > 0);
+    for (const p of items) {
+      assert.ok(!seen.has(p.id));
+      assert.ok(!photos.has(p.image));
+      seen.add(p.id);
+      photos.add(p.image);
     }
   }
 });
-test("individual product artwork differs between listings and rejects unknown ids", async () => {
-  const get = (id: string) =>
-    GET(new Request("http://localhost"), { params: Promise.resolve({ id }) });
-  const a = await get("eco-1001");
-  const b = await get("eco-1002");
-  assert.equal(a.headers.get("content-type"), "image/svg+xml");
-  assert.notEqual(await a.text(), await b.text());
-  assert.equal((await get("unknown")).status, 404);
+test("all exposed categories contain photo-backed products and no environmental measurements are invented", () => {
+  for (const c of categories) assert.ok(products.some((p) => p.category === c));
+  assert.ok(
+    products.every(
+      (p) =>
+        p.carbon === null &&
+        Object.values(p.attributes).every((a) => a.value === null),
+    ),
+  );
 });

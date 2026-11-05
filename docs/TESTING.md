@@ -19,3 +19,9 @@ The browser check exercised global laptop search (laptop and matching sleeve), w
 The catalog now contains 1,260 uniquely named listings: 105 in each of 12 categories. New listings are distinct functional configurations of 25 product families per category, with configuration-specific specifications and prices. Each has an individual labelled product illustration URL. Four paginated home collections contain 120 products each and have no overlapping product IDs. Catalog pagination exposes every listing without rendering thousands of cards at once.
 
 Authentication links are visible in navigation. `/api/auth/config` reports configuration availability; login and signup display a clear setup notice and remain disabled until Supabase is connected. This avoids asking visitors to submit credentials to an unconfigured service.
+
+## Photo-backed catalog replacement
+
+The fictional 1,260-item configuration catalog was replaced, with user approval, by 192 photo-backed records from https://dummyjson.com/docs/products. The import fetched every selected image, required an image MIME type and nontrivial byte length, and excluded duplicate SHA-256 content hashes. Every displayed name and photo come from the same source product ID. Four home collections still use disjoint product partitions, with counts based on available source records. The old SVG illustration endpoint was removed. Environmental values remain unavailable; no sustainability characteristics are inferred from a photograph. Prices use an illustrative fixed INR factor and stock is not a live offer.
+
+Run `python scripts/import-photo-catalog.py` to refresh the source with network access, followed by `npx tsx scripts/export-seed.ts` and the automated checks. Remote image availability may change after verification.

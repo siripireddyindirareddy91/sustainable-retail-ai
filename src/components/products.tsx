@@ -33,7 +33,7 @@ export function ProductCard({
         <span className="product-tag">
           {score !== null && score >= 80
             ? "Mindful pick"
-            : "Everyday essential"}
+            : "Photo-backed sample"}
         </span>
         <button
           className={`save-button ${state.wishlist.includes(p.id) ? "saved" : ""}`}
@@ -72,8 +72,8 @@ export function ProductCard({
         <div className="product-bottom">
           <span className="eco-score">
             <Leaf size={14} />
-            {score ?? "—"}
-            <small>/ 100 sample eco score</small>
+            {score ?? "Unknown"}
+            <small>/ 100 eco data</small>
           </span>
           <Link href={`/products/${p.id}`} aria-label={`View ${p.name}`}>
             <ArrowUpRight size={20} />

@@ -39,9 +39,11 @@ export function assess(p: Product) {
     carbon: p.carbon,
     sources: [
       {
-        name: "EcoRecommend synthetic seed dataset",
+        name: p.photoSource
+          ? "DummyJSON product record; environmental evidence unavailable"
+          : "EcoRecommend synthetic seed dataset",
         status: "demonstration",
-        url: null,
+        url: p.photoSource || null,
       },
     ],
     assessedAt: "2026-11-05",
@@ -64,7 +66,7 @@ export function search(pref: Preferences = {}) {
   return products.filter(
     (p) =>
       tokens.every((t) =>
-        `${p.name} ${p.category} ${p.brand} ${p.materials} ${p.packaging}`
+        `${p.name} ${p.category} ${p.brand} ${p.materials} ${p.packaging} ${Object.values(p.specifications).join(" ")}`
           .toLowerCase()
           .includes(t),
       ) &&
@@ -203,7 +205,9 @@ export function retrieveQuery(message: string) {
   const noun = nouns.find((n) => text.includes(n));
   if (noun)
     found = found.filter((p) =>
-      `${p.name} ${p.materials}`.toLowerCase().includes(noun),
+      `${p.name} ${p.materials} ${Object.values(p.specifications).join(" ")}`
+        .toLowerCase()
+        .includes(noun),
     );
   if (/recyclable packaging/.test(text))
     found = found.filter((p) => p.packaging.startsWith("Recyclable"));

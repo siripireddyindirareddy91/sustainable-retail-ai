@@ -2107,3 +2107,21 @@ th > button {
     font-size: 17px;
   }
 }
+.product-photo {
+  background: #fafafa;
+}
+.product-photo img {
+  object-fit: contain;
+  padding: 12px;
+}
+.detail-photo {
+  background: #fafafa;
+}
+.detail-photo > img {
+  object-fit: contain;
+  padding: 20px;
+}
+.compare-image {
+  object-fit: contain;
+  background: #fafafa;
+}

@@ -8,9 +8,9 @@ test("product card exposes detail, wishlist and comparison actions with sample l
   const html = renderToStaticMarkup(
     React.createElement(ProductCard, { product: products[20] }),
   );
-  assert.match(html, /sample eco score/);
-  assert.match(html, /Save Insulated Steel Bottle/);
+  assert.match(html, /eco data/);
+  assert.match(html, /Save /);
   assert.match(html, /Compare/);
-  assert.match(html, /\/products\/eco-021/);
+  assert.match(html, /\/products\/photo-/);
   assert.ok(!html.includes("undefined"));
 });

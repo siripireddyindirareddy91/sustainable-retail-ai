@@ -273,7 +273,7 @@ async function handle(
       const results = retrieveQuery(message);
       let answer = results.length
         ? `I found ${results.length} relevant demonstration products. ${results.map((r) => `${r.product.name}: ₹${r.product.price.toLocaleString("en-IN")}, sample rating ${r.product.rating}/5, sample sustainability ${r.components.sustainability ?? "unavailable"}/100.`).join(" ")} Carbon footprint and certifications are unavailable. These records are synthetic and do not establish real environmental superiority.`
-        : "No matching products were found. Try a broader category or a higher budget. I cannot infer specifications or availability for products outside this catalog.";
+        : "No matching demonstration products were found. Try a broader category or a higher budget. I cannot infer specifications or availability for products outside this catalog.";
       let mode = "deterministic";
       const provider = process.env.AI_PROVIDER;
       const context = JSON.stringify(

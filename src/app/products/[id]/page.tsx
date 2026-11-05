@@ -25,7 +25,7 @@ export default async function Details({
         <div className="detail-photo">
           <img src={p.image} alt={p.name} />
           <span className="pill">
-            Individual demonstration product illustration
+            Product photograph supplied with the source record
           </span>
         </div>
         <div>
@@ -106,7 +106,12 @@ export default async function Details({
         <ProductGrid items={similar(p)} />
       </section>
       <section className="panel">
-        <h2>Sample review summary</h2>
+        <h2>Source & sample review summary</h2>
+        <p>
+          <a href={p.photoSource} target="_blank" rel="noreferrer">
+            View image and product dataset provenance ↗
+          </a>
+        </p>
         <p>
           Rating {p.rating}/5 across {p.reviews} synthetic ratings. Individual
           customer reviews are unavailable. This listing does not represent real

@@ -188,7 +188,7 @@ function Catalog() {
       <Title
         eyebrow="THE CONSIDERED COLLECTION"
         title="Everyday finds. Better informed."
-        copy="Explore 1,260 distinct demonstration products — 105 in every category."
+        copy={`Explore ${products.length} photo-backed demonstration products. Each photograph is mapped to its source product.`}
       />
       <div className="catalog-layout">
         <aside className="filters">
@@ -586,7 +586,7 @@ function Recommendations() {
   );
 }
 function Sustainability() {
-  const [id, setId] = useState(products[20].id);
+  const [id, setId] = useState(products[0].id);
   useEffect(() => {
     const p = new URLSearchParams(location.search).get("product");
     if (products.some((x) => x.id === p)) setId(p!);
@@ -687,7 +687,7 @@ function Sustainability() {
   );
 }
 function Explainability() {
-  const [id, setId] = useState(products[20].id);
+  const [id, setId] = useState(products[0].id);
   const p = products.find((p) => p.id === id)!;
   const r = recommend({}, [p])[0];
   return (

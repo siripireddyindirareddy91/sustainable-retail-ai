@@ -16,7 +16,12 @@ import {
   BookOpen,
   Dumbbell,
 } from "lucide-react";
-import { products, categories } from "@/lib/catalog";
+import {
+  products,
+  categories,
+  PRODUCT_COUNT,
+  categoryCounts,
+} from "@/lib/catalog";
 import { HomeCollections } from "@/components/home-collections";
 const icons = [
   Headphones,
@@ -67,7 +72,7 @@ export default function Home() {
               <div>
                 <strong>Small choices. Meaningful questions.</strong>
                 <small>
-                  Explore 1,260 distinct demo products across 12 categories
+                  Explore {PRODUCT_COUNT} photo-backed demo products
                 </small>
               </div>
             </div>
@@ -130,7 +135,8 @@ export default function Home() {
                         : category}
                   </strong>
                   <small>
-                    105 distinct products <ArrowUpRight size={12} />
+                    {categoryCounts[category]} photo-backed products{" "}
+                    <ArrowUpRight size={12} />
                   </small>
                 </Link>
               );
