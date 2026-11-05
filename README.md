@@ -24,7 +24,7 @@ npm start
 
 ## Implemented experience
 
-- Responsive Next.js App Router storefront and 60 seeded demonstration products in 12 categories.
+- Responsive Next.js App Router storefront and 1,260 seeded demonstration products in 12 categories.
 - Search, category / budget / rating / sustainability filters, sorting, pagination and product details.
 - Transparent weighted recommendations with configurable priorities, per-feature contributions, completeness, source labels and model versions.
 - Sustainability assessment with unknown values excluded and minimum evidence thresholds; provenance and methodology pages.
@@ -37,7 +37,7 @@ npm start
 
 ## Honest operating modes
 
-The default application is an academic **demonstration**, not a live marketplace. Products, brands, prices, ratings and environmental attributes are fictional. Photographs are illustrative category images from Unsplash and are not exact product photographs. Carbon footprints and certifications are unavailable. Environmental rankings are illustrative and do not establish real environmental superiority. No payment processing, checkout or fulfillment is offered.
+The default application is an academic **demonstration**, not a live marketplace. Products, brands, prices, ratings and environmental attributes are fictional. Each product has a unique, labelled SVG illustration; these are not photographs or verified depictions of real goods. Carbon footprints and certifications are unavailable. Environmental rankings are illustrative and do not establish real environmental superiority. No payment processing, checkout or fulfillment is offered.
 
 Without Supabase credentials, authentication and administrator mutations return explicit unavailable/unauthorized responses. Collections remain device-local. With Supabase configured, catalog queries can use stored product records and signed-in wishlist mutations sync to the database. Some client views and the recommendation engine use the bundled versioned seed snapshot; regenerate/redeploy the snapshot when importing a new catalog to keep them consistent.
 
@@ -73,7 +73,7 @@ src/app/api/[...path]/   Validated REST APIs
 src/components/          Navigation, product cards, collections and interactive workspaces
 src/lib/                 Catalog, ranking, sustainability and server identity
 supabase/migrations/     Database schema and RLS
-supabase/seed.sql         60 labelled sample products and evidence records
+supabase/seed.sql         1,260 labelled sample products and evidence records
 ai-engine/               Optional Python hybrid recommendation / evaluation modules
 scripts/                 Seed exporter and product import utilities
  tests/                  Engine, API, schema-policy and component tests

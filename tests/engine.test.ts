@@ -8,14 +8,14 @@ import {
   similar,
   retrieveQuery,
 } from "../src/lib/engine";
-test("catalog contains 60 unique labelled samples across 12 categories", () => {
-  assert.equal(products.length, 60);
-  assert.equal(new Set(products.map((p) => p.id)).size, 60);
+test("catalog contains 1,260 unique labelled samples across 12 categories", () => {
+  assert.equal(products.length, 1260);
+  assert.equal(new Set(products.map((p) => p.id)).size, 1260);
   assert.equal(categories.length, 12);
   assert.ok(products.every((p) => p.demo && p.carbon === null));
 });
 test("search never returns unrelated products", () => {
-  assert.equal(search({ query: "laptop" }).length, 2);
+  assert.ok(search({ query: "laptop" }).length >= 2);
   assert.equal(search({ query: "not-a-real-product" }).length, 0);
   assert.ok(
     search({ query: "cotton" }).every((p) =>

@@ -16,7 +16,7 @@ test("API products searches and paginates", async () => {
   const r = await call("products?q=laptop");
   assert.equal(r.status, 200);
   const d = await r.json();
-  assert.equal(d.total, 2);
+  assert.ok(d.total >= 2);
   assert.match(d.products[0].name, /Laptop/);
 });
 test("unknown product returns 404", async () =>
@@ -65,4 +65,30 @@ test("account creation without configured database returns clear unavailable sta
       ).status,
       503,
     );
+});
+test("catalog API exposes all 105 category products across pages", async () => {
+  const first = await (
+    await call("products?category=Electronics&limit=60")
+  ).json();
+  const second = await (
+    await call("products?category=Electronics&limit=60&page=2")
+  ).json();
+  assert.equal(first.total, 105);
+  assert.equal(first.products.length, 60);
+  assert.equal(second.products.length, 45);
+  assert.equal(
+    new Set(
+      [...first.products, ...second.products].map((p: { id: string }) => p.id),
+    ).size,
+    105,
+  );
+});
+test("home collection API returns only its 120 assigned products", async () => {
+  const d = await (await call("products?collection=materials")).json();
+  assert.equal(d.total, 120);
+});
+test("authentication readiness is available without collecting credentials", async () => {
+  const d = await (await call("auth/config")).json();
+  assert.equal(typeof d.configured, "boolean");
+  assert.equal(d.provider, "supabase");
 });

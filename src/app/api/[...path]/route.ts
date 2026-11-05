@@ -1,3 +1,4 @@
+import { collectionProducts } from "@/lib/collections";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { products, categories } from "@/lib/catalog";
@@ -60,7 +61,18 @@ async function handle(
         database: configured() ? "configured" : "not configured",
         ai: process.env.AI_PROVIDER || "deterministic",
       });
-    if (key === "categories" && method === "GET") return json({ categories });
+    if (key === "auth/config" && method === "GET")
+      return json({ configured: configured(), provider: "supabase" });
+    if (key === "categories" && method === "GET")
+      return json({
+        categories,
+        counts: Object.fromEntries(
+          categories.map((category) => [
+            category,
+            products.filter((p) => p.category === category).length,
+          ]),
+        ),
+      });
     if (key === "products" && method === "GET") {
       const p = req.nextUrl.searchParams;
       const pref = prefSchema.parse({
@@ -102,6 +114,13 @@ async function handle(
           );
           source = "supabase";
         }
+      }
+      const collection = p.get("collection");
+      if (collection) {
+        const allowed = new Set(
+          collectionProducts(collection).map((item) => item.id),
+        );
+        data = data.filter((item) => allowed.has(item.id));
       }
       const sort = p.get("sort");
       data.sort((a, b) =>
@@ -166,7 +185,14 @@ async function handle(
           rating: z.number().min(0).max(5),
           reviews: z.number().int().nonnegative(),
           description: z.string().max(4000),
-          image: z.string().url().startsWith("https://"),
+          image: z
+            .string()
+            .refine(
+              (url) =>
+                url.startsWith("https://") ||
+                /^\/api\/product-image\/[a-zA-Z0-9-]+$/.test(url),
+              "Use HTTPS or a local product illustration",
+            ),
           materials: z.string(),
           packaging: z.string(),
           carbon: z.number().nonnegative().nullable(),
@@ -199,14 +225,12 @@ async function handle(
         .parse(body);
       if (id && id !== product.id)
         return json({ error: "Product ID mismatch" }, 400);
-      const { error } = await auth.db
-        .from("products")
-        .upsert({
-          id: product.id,
-          category: product.category,
-          name: product.name,
-          data: product,
-        });
+      const { error } = await auth.db.from("products").upsert({
+        id: product.id,
+        category: product.category,
+        name: product.name,
+        data: product,
+      });
       return error
         ? json({ error: "Product could not be saved" }, 400)
         : json({ product }, method === "POST" ? 201 : 200);
@@ -216,12 +240,10 @@ async function handle(
       const recommendations = recommend(pref);
       const auth = await identity(req);
       if (auth && method === "POST")
-        await auth.db
-          .from("recommendations")
-          .insert({
-            user_id: auth.user.id,
-            data: { preferences: pref, results: recommendations },
-          });
+        await auth.db.from("recommendations").insert({
+          user_id: auth.user.id,
+          data: { preferences: pref, results: recommendations },
+        });
       return json({
         recommendations,
         mode: "Transparent weighted cold-start ranking; collaborative filtering requires sufficient real interactions.",

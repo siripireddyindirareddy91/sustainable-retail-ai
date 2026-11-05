@@ -17,7 +17,7 @@ import {
   Dumbbell,
 } from "lucide-react";
 import { products, categories } from "@/lib/catalog";
-import { ProductGrid } from "@/components/products";
+import { HomeCollections } from "@/components/home-collections";
 const icons = [
   Headphones,
   Shirt,
@@ -66,7 +66,9 @@ export default function Home() {
               </span>
               <div>
                 <strong>Small choices. Meaningful questions.</strong>
-                <small>Explore 60 thoughtfully curated demo products</small>
+                <small>
+                  Explore 1,260 distinct demo products across 12 categories
+                </small>
               </div>
             </div>
           </div>
@@ -110,62 +112,32 @@ export default function Home() {
             </Link>
           </div>
           <div className="category-grid">
-            {categories
-              .filter((_, i) => [0, 2, 3, 4, 5, 6, 9, 11].includes(i))
-              .map((category) => {
-                const Icon = icons[categories.indexOf(category)];
-                return (
-                  <Link
-                    key={category}
-                    href={`/products?category=${encodeURIComponent(category)}`}
-                  >
-                    <span>
-                      <Icon size={26} />
-                    </span>
-                    <strong>
-                      {category === "Beauty & Personal Care"
-                        ? "Beauty & care"
-                        : category === "Eco-Friendly Products"
-                          ? "Eco essentials"
-                          : category}
-                    </strong>
-                    <small>
-                      Explore collection <ArrowUpRight size={12} />
-                    </small>
-                  </Link>
-                );
-              })}
+            {categories.map((category) => {
+              const Icon = icons[categories.indexOf(category)];
+              return (
+                <Link
+                  key={category}
+                  href={`/products?category=${encodeURIComponent(category)}`}
+                >
+                  <span>
+                    <Icon size={26} />
+                  </span>
+                  <strong>
+                    {category === "Beauty & Personal Care"
+                      ? "Beauty & care"
+                      : category === "Eco-Friendly Products"
+                        ? "Eco essentials"
+                        : category}
+                  </strong>
+                  <small>
+                    105 distinct products <ArrowUpRight size={12} />
+                  </small>
+                </Link>
+              );
+            })}
           </div>
         </section>
-        <section className="section">
-          <div className="section-heading">
-            <div>
-              <span className="eyebrow">
-                <Sparkles size={13} /> DISCOVERY, WITH A LITTLE INTELLIGENCE
-              </span>
-              <h2>Good finds. Clear reasons.</h2>
-              <p>
-                A few everyday favourites to start your thoughtful shopping
-                journey.
-              </p>
-            </div>
-            <Link href="/products" className="text-link">
-              Explore all products <ArrowRight size={17} />
-            </Link>
-          </div>
-          <div className="collection-tabs">
-            <Link className="selected" href="/products">
-              Picked for you
-            </Link>
-            <Link href="/products?sort=sustainability">Mindful materials</Link>
-            <Link href="/products?sort=rating">Top rated</Link>
-            <Link href="/products?sort=price-asc">Everyday value</Link>
-            <span>Sample catalog · INR prices</span>
-          </div>
-          <ProductGrid
-            items={[products[20], products[10], products[8], products[45]]}
-          />
-        </section>
+        <HomeCollections />
         <section className="editorial">
           <div>
             <span className="eyebrow">YOUR VALUES. YOUR RECOMMENDATIONS.</span>

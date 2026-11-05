@@ -201,3 +201,99 @@ export const products: Product[] = groups.flatMap((names, c) =>
     };
   }),
 );
+import { familyCatalog, configurations } from "./expanded-catalog";
+const legacyProducts = products;
+const categoryMaterials = [
+  "Mixed electronic components; composition unavailable",
+  "Canvas and woven fabric (sample)",
+  "Cotton blend (sample)",
+  "Mixed footwear components; composition unavailable",
+  "Steel, glass or mixed kitchen materials (sample)",
+  "Formulation details unavailable",
+  "Wood and mixed furniture materials (sample)",
+  "Food ingredients vary by product; see sample specification",
+  "Mixed accessory materials; composition unavailable",
+  "Mixed sports equipment materials; composition unavailable",
+  "Paper and board (sample)",
+  "Mixed reusable household materials (sample)",
+];
+const addedProducts: Product[] = familyCatalog.flatMap((families, c) =>
+  families.flatMap((family, f) =>
+    configurations[c].map(([model, specification], v) => {
+      const n = c * 100 + f * 4 + v;
+      const id = `eco-${String(1001 + n).padStart(4, "0")}`;
+      const price =
+        Math.round(
+          ([1200, 450, 500, 900, 300, 180, 2000, 100, 250, 600, 250, 150][c] +
+            f * [740, 85, 65, 110, 95, 37, 340, 28, 55, 145, 30, 60][c] +
+            v *
+              [600, 350, 250, 400, 300, 120, 1200, 120, 180, 400, 180, 160][
+                c
+              ]) /
+            10,
+        ) * 10;
+      return {
+        id,
+        name: `${family} — ${model}`,
+        brand: [
+          "Terra & Co.",
+          "Everkind",
+          "Rooted",
+          "Greenhouse",
+          "Loop Studio",
+        ][(f + v) % 5],
+        category: categories[c],
+        price,
+        originalPrice: Math.round((price * 1.22) / 10) * 10,
+        rating: Number((3.8 + ((n * 7) % 12) / 10).toFixed(1)),
+        reviews: 12 + ((n * 13) % 937),
+        description: `${family}, ${model.toLowerCase()} configuration. ${specification}. This is a distinct fictional demonstration listing; specifications, pricing and ratings are illustrative, not live marketplace claims.`,
+        image: `/api/product-image/${id}`,
+        materials: categoryMaterials[c],
+        packaging:
+          v % 3 === 0
+            ? "Recyclable paper packaging (sample)"
+            : "Packaging information unavailable",
+        carbon: null,
+        attributes: Object.fromEntries(
+          [
+            "materials",
+            "packaging",
+            "durability",
+            "energy",
+            "repairability",
+            "recyclability",
+            "certifications",
+            "carbon",
+          ].map((k, j) => [
+            k,
+            {
+              value:
+                j > 5 || (n + j) % 4 === 0
+                  ? null
+                  : 55 + ((n * 7 + j * 11) % 43),
+              status:
+                j > 5 || (n + j) % 4 === 0 ? "unavailable" : "demonstration",
+              note: "Synthetic demonstration attribute, not verified evidence.",
+            },
+          ]),
+        ),
+        specifications: {
+          Configuration: model,
+          Details: specification,
+          Collection: family,
+          Availability: "Demonstration only; not for sale",
+          Warranty: "Unavailable — sample listing",
+        },
+        demo: true,
+      } as Product;
+    }),
+  ),
+);
+// Keep stable IDs for saved items while using unique product-specific artwork.
+legacyProducts.forEach((p) => {
+  p.image = `/api/product-image/${p.id}`;
+});
+products.push(...addedProducts);
+export const PRODUCT_COUNT = products.length;
+export const PRODUCTS_PER_CATEGORY = 105;

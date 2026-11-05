@@ -24,7 +24,9 @@ export default async function Details({
       <div className="detail-layout">
         <div className="detail-photo">
           <img src={p.image} alt={p.name} />
-          <span className="pill">Illustrative category photograph</span>
+          <span className="pill">
+            Individual demonstration product illustration
+          </span>
         </div>
         <div>
           <div className="eyebrow">{p.brand} · DEMONSTRATION PRODUCT</div>

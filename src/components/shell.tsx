@@ -69,8 +69,11 @@ export function Shell({ children }: { children: React.ReactNode }) {
               <ShoppingBag size={19} />
               {state.cart.length > 0 && <b>{state.cart.length}</b>}
             </Link>
-            <Link className="account-link" href="/dashboard">
-              My account <ArrowUpRight size={14} />
+            <Link className="account-link" href="/login">
+              Sign in <ArrowUpRight size={14} />
+            </Link>
+            <Link className="auth-access" href="/signup">
+              Join free
             </Link>
             <button
               className="mobile-menu icon-button"

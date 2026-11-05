@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState, FormEvent } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import {
   Leaf,
   Sparkles,
@@ -130,8 +131,10 @@ export function Workspace({ view }: { view: string }) {
   );
 }
 function Catalog() {
+  const searchParams = useSearchParams();
   const [q, setQ] = useState("");
   const [category, setCategory] = useState("");
+  const [collection, setCollection] = useState("");
   const [budget, setBudget] = useState(60000);
   const [rating, setRating] = useState(0);
   const [eco, setEco] = useState(0);
@@ -145,17 +148,18 @@ function Catalog() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   useEffect(() => {
-    const p = new URLSearchParams(location.search);
+    const p = searchParams;
     setQ(p.get("q") || "");
     setCategory(p.get("category") || "");
+    setCollection(p.get("collection") || "");
     setSort(p.get("sort") || "");
-  }, []);
+  }, [searchParams]);
   useEffect(() => {
     const controller = new AbortController();
     setLoading(true);
     const timer = setTimeout(() => {
       fetch(
-        `/api/products?${new URLSearchParams({ q, category, budget: String(budget), rating: String(rating), sustainability: String(eco), sort, page: String(page) })}`,
+        `/api/products?${new URLSearchParams({ q, category, collection, budget: String(budget), rating: String(rating), sustainability: String(eco), sort, page: String(page) })}`,
         { signal: controller.signal },
       )
         .then(async (r) => {
@@ -178,13 +182,13 @@ function Catalog() {
       clearTimeout(timer);
       controller.abort();
     };
-  }, [q, category, budget, rating, eco, sort, page]);
+  }, [q, category, collection, budget, rating, eco, sort, page]);
   return (
     <>
       <Title
         eyebrow="THE CONSIDERED COLLECTION"
         title="Everyday finds. Better informed."
-        copy="Explore 60 sample products with transparent data and recommendations."
+        copy="Explore 1,260 distinct demonstration products — 105 in every category."
       />
       <div className="catalog-layout">
         <aside className="filters">
@@ -268,6 +272,7 @@ function Catalog() {
             onClick={() => {
               setQ("");
               setCategory("");
+              setCollection("");
               setBudget(60000);
               setRating(0);
               setEco(0);
@@ -1077,6 +1082,12 @@ function Auth({ signup }: { signup: boolean }) {
   const [busy, setBusy] = useState(false);
   const [reset, setReset] = useState(false);
   const [recovery, setRecovery] = useState(false);
+  const [authReady, setAuthReady] = useState<boolean | null>(null);
+  useEffect(() => {
+    api("auth/config")
+      .then((d) => setAuthReady(d.configured))
+      .catch(() => setAuthReady(false));
+  }, []);
   useEffect(() => {
     const hash = new URLSearchParams(location.hash.slice(1));
     const token = hash.get("access_token");
@@ -1133,6 +1144,13 @@ function Auth({ signup }: { signup: boolean }) {
         </div>
       </div>
       <form className="panel auth-form" onSubmit={submit}>
+        {authReady === false && (
+          <p className="status" role="status">
+            Account access is ready to connect. Sign-up and login will be
+            enabled when the store owner adds Supabase settings. You can browse
+            and save favourites on this device now.
+          </p>
+        )}
         <Leaf size={32} />
         <h2>
           {recovery
@@ -1169,7 +1187,7 @@ function Auth({ signup }: { signup: boolean }) {
             />
           </label>
         )}
-        <button className="btn primary" disabled={busy}>
+        <button className="btn primary" disabled={busy || authReady !== true}>
           {busy
             ? "Please wait…"
             : recovery
