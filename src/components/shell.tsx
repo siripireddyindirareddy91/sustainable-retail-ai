@@ -14,7 +14,9 @@ import {
   Menu,
   X,
 } from "lucide-react";
-import { useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { CategorySidebar } from "./category-sidebar";
+import { browserDatabase } from "@/lib/browser";
 import { useStore } from "./store";
 const links = [
   ["/products", "Discover"],
@@ -27,6 +29,16 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const { state } = useStore();
   const [open, setOpen] = useState(false);
+  const [signedIn, setSignedIn] = useState(false);
+  useEffect(() => {
+    const db = browserDatabase();
+    if (!db) return;
+    db.auth.getSession().then(({ data }) => setSignedIn(Boolean(data.session)));
+    const { data } = db.auth.onAuthStateChange((_event, session) =>
+      setSignedIn(Boolean(session)),
+    );
+    return () => data.subscription.unsubscribe();
+  }, []);
   return (
     <>
       <div className="announcement">
@@ -69,11 +81,17 @@ export function Shell({ children }: { children: React.ReactNode }) {
               <ShoppingBag size={19} />
               {state.cart.length > 0 && <b>{state.cart.length}</b>}
             </Link>
-            <Link className="account-link" href="/login">
-              Sign in <ArrowUpRight size={14} />
+            <Link
+              className="account-link"
+              href={signedIn ? "/dashboard" : "/login"}
+            >
+              {signedIn ? "My account" : "Sign in"} <ArrowUpRight size={14} />
             </Link>
-            <Link className="auth-access" href="/signup">
-              Join free
+            <Link
+              className="auth-access"
+              href={signedIn ? "/dashboard" : "/signup"}
+            >
+              {signedIn ? "Account" : "Join free"}
             </Link>
             <button
               className="mobile-menu icon-button"
@@ -110,7 +128,12 @@ export function Shell({ children }: { children: React.ReactNode }) {
           <ArrowUpRight size={15} />
         </Link>
       </div>
-      <main>{children}</main>
+      <div className="shopping-layout">
+        <Suspense fallback={<aside className="category-rail" />}>
+          <CategorySidebar />
+        </Suspense>
+        <main>{children}</main>
+      </div>
       <section className="trust-strip wrap">
         <div>
           <ShieldCheck />

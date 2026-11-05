@@ -451,7 +451,11 @@ async function handle(
       const password = z.string().min(8).max(128).parse(body.password);
       const result =
         key === "auth/signup"
-          ? await db.auth.signUp({ email, password })
+          ? await db.auth.signUp({
+              email,
+              password,
+              options: { emailRedirectTo: `${req.nextUrl.origin}/login` },
+            })
           : await db.auth.signInWithPassword({ email, password });
       return result.error
         ? json(

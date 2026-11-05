@@ -34,3 +34,13 @@ Set exactly one provider and its server-side API key. OpenAI and Gemini requests
 ## Recovery
 
 Redeploy a previously successful Vercel deployment for application rollback. Database migrations are not automatically executed by Vercel and must be managed separately. Back up real data before future destructive schema changes.
+
+## Live account setup (2026-11-05)
+
+A Supabase Free Plan resource named `ecorecommend-auth` is connected through the Vercel Marketplace. The database migration and 192-record seed have been applied. Vercel supplies the public URL/anon key and server-only maintenance credentials. Never commit pulled environment files.
+
+`node scripts/verify-auth.mjs` verifies a temporary account, login, private profile access, ordinary role creation, denied role escalation, denied incorrect passwords, and logout, then removes the account. `node scripts/verify-signup-link.mjs` checks the configured confirmation redirect without sending an email.
+
+The Supabase Auth Site URL must be `https://sustainable-retail-ai.vercel.app` and the redirect allowlist must include `https://sustainable-retail-ai.vercel.app/login`. Signups require email confirmation. Password reset uses the same deployed login callback.
+
+The left category sidebar links to filtered product pages, includes product counts and active selection, and becomes a horizontally scrollable category menu on narrow screens.

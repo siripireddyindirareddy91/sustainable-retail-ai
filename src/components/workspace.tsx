@@ -153,6 +153,7 @@ function Catalog() {
     setCategory(p.get("category") || "");
     setCollection(p.get("collection") || "");
     setSort(p.get("sort") || "");
+    setPage(1);
   }, [searchParams]);
   useEffect(() => {
     const controller = new AbortController();
@@ -1138,8 +1139,9 @@ function Auth({ signup }: { signup: boolean }) {
           <ShieldCheck />
           <h3>Your data, thoughtfully handled.</h3>
           <p>
-            Accounts use Supabase authentication. If it is not configured, you
-            can continue exploring with device-local saves.
+            Create an account with your email and password. Confirm your email
+            before signing in. Your password is managed by Supabase
+            authentication.
           </p>
         </div>
       </div>
